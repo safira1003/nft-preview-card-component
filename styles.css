@@ -1,0 +1,125 @@
+body {
+   background-color: hsl(217, 54%, 11%); 
+   font-family: 'Outfit', sans-serif;
+   margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+hr {
+    border-style: solid none none none;
+    border-color: hsl(215, 51%, 70%);
+    margin: 0;
+}
+
+main {
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 100px auto;
+}
+
+.image-equilibrium {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img-hover {
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    background-color: hsla(178, 100%, 50%, 0.527);
+    opacity: 0%;
+}
+
+.img-hover:hover {
+    opacity: 100%;
+}
+
+.img-svg {
+    display: inline-block;
+    margin: 125px 125px;
+}
+
+.equilibrium {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.equilibrium:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-days {
+    font-size: 15px;
+}
+
+.eth p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+    bottom: 2px;
+}
+
+.days p {
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+    bottom: 2px;
+}
+
+.eth {
+    display: inline-block;
+}
+
+.days {
+    float: right;
+}
+
+.image-avatar {
+    border-radius: 100%;
+    border: solid 1px;
+    border-color: white;
+    width: 35px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.creator {
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+
+.creator p {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom: 12px;
+}
+
+ 
