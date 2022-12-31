@@ -42,7 +42,7 @@ main {
     border-radius: 15px;
     cursor: pointer;
     position: absolute;
-    top: 50px;
+    top: 145px;
     background-color: hsla(178, 100%, 50%, 0.527);
     opacity: 0%;
 }
@@ -115,7 +115,7 @@ main {
 }
 
 .creator p {
-    font-size: 13px;
+    font-size: 17px;
     display: inline-block;
     margin-left: 10px;
     position: relative;
